@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Demo Class</title>
   </head>
   <body>
-    <script src="./libs/SpineWebGLPlugin.js"></script>
+    <script src="./libs/SpinePlugin.min.js"></script>
     <script src="./libs/phaser.min.js"></script>
-    <script src="./game.js"></script>
+    <script src="./libs/main.js"></script>
+    <script>
+     /* System.import('./libs/main.js').then(function(m){
+        console.log(m);
+      }); */
+     // let m = new window.System.main(); 
+    </script>
     <div id="phaser-game"></div>
     <style>
       body,
@@ -24,9 +30,6 @@
         font-size: 24px;
       }
     </style>
-    <p>
-      Find the source code on
-      <a href="https://github.com/yandeu/phaser3-spine-example">github</a>.
-    </p>
+
   </body>
 </html>

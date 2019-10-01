@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "1Z9YLM0U/e910XAU9stXgcVqKUE", "spine": "3.6.50", "width": 547, "height": 426, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bear", "parent": "root", "length": 235.02, "rotation": 89.27, "x": 54, "y": -28 },
+	{ "name": "reveal", "parent": "root", "length": 304.11, "rotation": 88.49, "x": 14, "y": -80 }
+],
+"slots": [
+	{ "name": "polar_bear_cub_placeholder_2", "bone": "bear", "attachment": "polar_bear_cub_placeholder_2" },
+	{ "name": "reveal_polar_3", "bone": "reveal", "attachment": "reveal_polar_3" }
+],
+"skins": {
+	"default": {
+		"polar_bear_cub_placeholder_2": {
+			"polar_bear_cub_placeholder_2": { "x": 121.36, "y": 50.55, "rotation": -89.27, "width": 327, "height": 285 }
+		},
+		"reveal_polar_3": {
+			"reveal_polar_3": { "x": 177.54, "y": -18.34, "rotation": -88.49, "width": 547, "height": 426 }
+		}
+	}
+},
+"animations": {
+	"bear_hide": {
+		"bones": {
+			"bear": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.95, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"bear_reveal": {
+		"slots": {
+			"reveal_polar_3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bear": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.95, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "kMWyNmE/S2ZoFX/2+1xdxgiiG3Q", "spine": "3.6.50", "width": 539, "height": 545, "images": "" },
+"bones": [
+	{ "name": "root", "y": -10.58 },
+	{ "name": "bear_1", "parent": "root", "length": 173.2, "rotation": 90.87, "x": 1.31, "y": -159.41 },
+	{ "name": "hide", "parent": "root", "length": 167.23, "rotation": 101.4, "x": -13.23, "y": -148.09 }
+],
+"slots": [
+	{ "name": "polar_bear_adult_placeholder", "bone": "bear_1", "attachment": "polar_bear_adult_placeholder" },
+	{ "name": "reveal_polar_1", "bone": "hide", "attachment": "reveal_polar_1" }
+],
+"skins": {
+	"default": {
+		"polar_bear_adult_placeholder": {
+			"polar_bear_adult_placeholder": { "x": 219.07, "y": -15.32, "rotation": -90.87, "width": 477, "height": 434 }
+		},
+		"reveal_polar_1": {
+			"reveal_polar_1": { "x": 232.29, "y": -80.73, "rotation": -101.4, "width": 539, "height": 545 }
+		}
+	}
+},
+"animations": {
+	"animation": {},
+	"bear_hide": {
+		"slots": {
+			"polar_bear_adult_placeholder": {
+				"attachment": [
+					{ "time": 0, "name": "polar_bear_adult_placeholder" },
+					{ "time": 2, "name": "polar_bear_adult_placeholder" }
+				]
+			}
+		},
+		"bones": {
+			"bear_1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.96, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"bear_reveal": {
+		"slots": {
+			"polar_bear_adult_placeholder": {
+				"attachment": [
+					{ "time": 0, "name": "polar_bear_adult_placeholder" },
+					{ "time": 2, "name": "polar_bear_adult_placeholder" }
+				]
+			},
+			"reveal_polar_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bear_1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.96, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

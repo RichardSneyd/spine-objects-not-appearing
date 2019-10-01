@@ -1,0 +1,128 @@
+{
+"skeleton": { "hash": "j0wT6rckjvRLiBH+ZMr21mYIbF4", "spine": "3.6.50", "width": 440, "height": 500, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "professor_bone", "parent": "root", "length": 334.12, "rotation": 88.46, "x": 1, "y": -3 }
+],
+"slots": [
+	{ "name": "professor_placeholder_1", "bone": "professor_bone", "attachment": "professor_placeholder_1" },
+	{ "name": "professor_placeholder_2", "bone": "professor_bone", "attachment": "professor_placeholder_2" },
+	{ "name": "professor_placeholder_3", "bone": "professor_bone", "attachment": "professor_placeholder_3" }
+],
+"skins": {
+	"default": {
+		"professor_placeholder_1": {
+			"professor_placeholder_1": { "x": 221.32, "y": -9.04, "rotation": -88.46, "width": 440, "height": 500 }
+		},
+		"professor_placeholder_2": {
+			"professor_placeholder_2": { "x": 221.89, "y": 6.98, "rotation": -88.46, "width": 405, "height": 500 }
+		},
+		"professor_placeholder_3": {
+			"professor_placeholder_3": { "x": 210.19, "y": -4.34, "rotation": -88.46, "width": 436, "height": 485 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"professor_placeholder_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"professor_placeholder_2": {
+				"attachment": [
+					{ "time": 0, "name": "professor_placeholder_2" }
+				]
+			},
+			"professor_placeholder_3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"professor_bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 2.05 },
+					{ "time": 2, "angle": -0.39 },
+					{ "time": 3, "angle": -1.49 },
+					{ "time": 4, "angle": -2.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.95, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 3, "x": 0.95, "y": 1 },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"success": {
+		"slots": {
+			"professor_placeholder_2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"professor_placeholder_3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"professor_bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 2.05 },
+					{ "time": 2, "angle": -0.39 },
+					{ "time": 3, "angle": -1.49 },
+					{ "time": 4, "angle": -2.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.95, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 3, "x": 0.95, "y": 1 },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"think": {
+		"slots": {
+			"professor_placeholder_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"professor_placeholder_2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"professor_bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 2.05 },
+					{ "time": 2, "angle": -0.39 },
+					{ "time": 3, "angle": -1.49 },
+					{ "time": 4, "angle": -2.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.95, "y": 1 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 3, "x": 0.95, "y": 1 },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

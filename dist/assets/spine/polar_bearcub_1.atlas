@@ -1,0 +1,20 @@
+
+polar_bearcub_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+polar_bear_cub_placeholder_1
+  rotate: false
+  xy: 617, 103
+  size: 346, 285
+  orig: 346, 285
+  offset: 0, 0
+  index: -1
+reveal_polar_2
+  rotate: false
+  xy: 2, 2
+  size: 613, 386
+  orig: 613, 386
+  offset: 0, 0
+  index: -1

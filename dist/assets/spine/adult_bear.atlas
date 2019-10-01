@@ -1,0 +1,20 @@
+
+adult_bear.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+polar_bear_adult_placeholder
+  rotate: false
+  xy: 2, 2
+  size: 477, 434
+  orig: 477, 434
+  offset: 0, 0
+  index: -1
+reveal_polar_1
+  rotate: false
+  xy: 2, 438
+  size: 539, 545
+  orig: 539, 545
+  offset: 0, 0
+  index: -1
